@@ -1,8 +1,6 @@
 # Fetch Youtube Data
 
-
-
-It searches asynchronously in backgroud using Python asyncio and threading library.
+It searches asynchronously every 10 sec in the backgroud using Python asyncio and threading library.
 
 Default search query: "football"
 
@@ -32,8 +30,11 @@ flask run
 
 ## Features
 1. Shuffles through the provided API Key set every time it searches.
-3. Sort & Filter Options are provided.
-4. The data fetched from YT are latest.
+2. Sort Option is provided. In order to sort by PublishAt go to the dashboard and click on the PublishedAt Heading Column. This will sort in Asc and Desc order both
+3. The data fetched from YT are latest.
+4. Pagination is added.
+5. Global Seach on any keyword is added in the dashboard.
+6. A dropdown field inorder to give the users an option to select no. of entries to display in every page 
 
 
 
