@@ -1,0 +1,11 @@
+dnspython==1.16.0
+Flask==2.1.2
+Flask-PyMongo==2.3.0
+idna==2.8
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+pymongo==3.11.0
+python-dotenv==0.20.0
+requests==2.22.0
+urllib3==1.25.11
+Werkzeug==2.1.2
