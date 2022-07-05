@@ -132,6 +132,8 @@ def loop_in_thread(loop):
 loop = asyncio.get_event_loop()
 #loop.run_until_complete(fetch_data_from_ytApi())
 t = threading.Thread(target=loop_in_thread, args=(loop,))
+
+# Below line is to make the thread daemon thread so that it responds to keyboard interrupt
 t.daemon = True
 t.start()
 
