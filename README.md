@@ -16,13 +16,14 @@ Default search query: "football"
 
 ## Starting Server Locally
 ```bash
+
 git clone https://github.com/iashtripathy/Youtube-Search-Api.git
 
-
+cd Youtube-Search-Api
 
 pip3 install -r requirements.txt
 
-
+open the .env file and update api keys
 
 flask run 
 
