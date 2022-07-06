@@ -160,21 +160,6 @@
         $('.dataTables_length').addClass('bs-select');
       });
       */
-
-      const params = new URLSearchParams(window.location.search)
-      let start = params.get('start', 0)
-      let maxResults = params.get('maxResults', 10)
-
-      const prevBtJS = document.getElementById("prevBt")
-      const nextBtJS = document.getElementById("nextBt")
-
-      if (start == 0) {
-        prevBtJS.disabled = true
-      }
-      else {
-        prevBtJS.value = maxResults-start;
-      }
-      nextBtJS.value = start + maxResults;
     </script>
 
 
